@@ -10,4 +10,5 @@ Ce projet consiste à implémenter les fonctions principales d'un système banca
 
 montrant le relevé bancaire affichant les opérations de dépôt et retrait avec les montants et soldes correspondants dans l’ordre inverse chronologique.
 
-![Uploading image.png…]()
+<img width="181" alt="image" src="https://github.com/user-attachments/assets/378bc733-7db7-4ff1-86fd-ad4ce22acb8b" />
+
