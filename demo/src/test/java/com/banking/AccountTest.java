@@ -33,7 +33,6 @@ class AccountTest {
     void withdraw_should_subtract_valid_amount() {
         account.deposit(1000);
         account.withdraw(500);
-        // Pas d'exception attendue ? test réussi
     }
 
     @Test
