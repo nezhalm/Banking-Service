@@ -21,7 +21,6 @@ class AccountTest {
     void deposit_should_add_positive_amount() {
         account.deposit(1000);
         account.deposit(2000);
-        // Pas d'exception attendue ? test réussi
     }
 
     @Test
@@ -34,7 +33,7 @@ class AccountTest {
     void withdraw_should_subtract_valid_amount() {
         account.deposit(1000);
         account.withdraw(500);
-        // Pas d'exception attendue ? test réussi
+        // Pas d'exception attendue ? test rÃ©ussi
     }
 
     @Test
@@ -53,7 +52,6 @@ class AccountTest {
         account.deposit(1000);
         account.deposit(2000);
         account.withdraw(500);
-        // On vérifie juste que ça n'exceptionne pas
         assertDoesNotThrow(() -> account.printStatement());
     }
 }
